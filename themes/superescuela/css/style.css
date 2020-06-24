@@ -1,0 +1,20 @@
+/**
+ * If using a CSS pre-processor, tell it to overwrite this file. If not, place
+ * your custom CSS modifications here.
+ */
+
+.emoji {
+  font-size:80px;
+}
+
+#home a:hover {
+  text-decoration: none;
+}
+
+.view-retos .view-content > div {
+  height:8em;
+}
+
+.view-actividades .view-content > div {
+  margin-top:6em;
+}
