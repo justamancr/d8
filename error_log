@@ -1,0 +1,52 @@
+[02-Jan-2021 23:45:14 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Jan-2021 23:45:16 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Jan-2021 23:45:18 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Jan-2021 23:45:19 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Jan-2021 23:48:38 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Jan-2021 23:48:39 America/Chicago] PDOException: SQLSTATE[HY000] [1044] Access denied for user 'justaman_d8'@'localhost' to database 'justaman_escuela9' in /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home2/justaman/public_html/d8/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(416): PDO->__construct('mysql:host=loca...', 'justaman_d8', 'K9eTUDRbHyY]', Array)
+#1 /home2/justaman/public_html/d8/core/lib/Drupal/Core/Database/Database.php(374): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home2/justaman/public_html/d8/core/lib/Drupal/Core/Database/Database.php(169): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(212): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(544): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(910): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(477): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(707): Drupal\Core\DrupalKernel->boot()
+#13 /home2/justaman/public_html/d8/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[02-Jan-2021 23:48:40 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Jan-2021 23:48:40 America/Chicago] PDOException: SQLSTATE[HY000] [1044] Access denied for user 'justaman_d8'@'localhost' to database 'justaman_escuela9' in /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home2/justaman/public_html/d8/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(416): PDO->__construct('mysql:host=loca...', 'justaman_d8', 'K9eTUDRbHyY]', Array)
+#1 /home2/justaman/public_html/d8/core/lib/Drupal/Core/Database/Database.php(374): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home2/justaman/public_html/d8/core/lib/Drupal/Core/Database/Database.php(169): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(212): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(544): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(910): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(477): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(707): Drupal\Core\DrupalKernel->boot()
+#13 /home2/justaman/public_html/d8/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
+[02-Jan-2021 23:49:02 America/Chicago] PHP Warning:  Version warning: Imagick was compiled against Image Magick version 1654 but version 1650 is loaded. Imagick will run but may behave surprisingly in Unknown on line 0
+[02-Jan-2021 23:49:02 America/Chicago] PDOException: SQLSTATE[HY000] [1044] Access denied for user 'justaman_d8'@'localhost' to database 'justaman_escuela9' in /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php on line 79 #0 /home2/justaman/public_html/d8/core/lib/Drupal/Core/Database/Driver/mysql/Connection.php(416): PDO->__construct('mysql:host=loca...', 'justaman_d8', 'K9eTUDRbHyY]', Array)
+#1 /home2/justaman/public_html/d8/core/lib/Drupal/Core/Database/Database.php(374): Drupal\Core\Database\Driver\mysql\Connection::open(Array)
+#2 /home2/justaman/public_html/d8/core/lib/Drupal/Core/Database/Database.php(169): Drupal\Core\Database\Database::openConnection('default', 'default')
+#3 [internal function]: Drupal\Core\Database\Database::getConnection('default')
+#4 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(79): call_user_func_array('Drupal\\Core\\Dat...', Array)
+#5 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'database')
+#6 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(212): Drupal\Component\DependencyInjection\Container->get('database', 1)
+#7 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/PhpArrayContainer.php(62): Drupal\Component\DependencyInjection\PhpArrayContainer->resolveServicesAndParameters(Array)
+#8 /home2/justaman/public_html/d8/core/lib/Drupal/Component/DependencyInjection/Container.php(173): Drupal\Component\DependencyInjection\PhpArrayContainer->createService(Array, 'cache.container')
+#9 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(544): Drupal\Component\DependencyInjection\Container->get('cache.container')
+#10 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(910): Drupal\Core\DrupalKernel->getCachedContainerDefinition()
+#11 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(477): Drupal\Core\DrupalKernel->initializeContainer()
+#12 /home2/justaman/public_html/d8/core/lib/Drupal/Core/DrupalKernel.php(707): Drupal\Core\DrupalKernel->boot()
+#13 /home2/justaman/public_html/d8/index.php(19): Drupal\Core\DrupalKernel->handle(Object(Symfony\Component\HttpFoundation\Request))
+#14 {main}
